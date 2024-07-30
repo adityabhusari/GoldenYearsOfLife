@@ -1,0 +1,21 @@
+.custom-card {
+    border-radius: 16px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 200px;
+    width: 200px;
+    background-color: rgba(70, 64, 64, 0.623);
+
+    .card-header {
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+      }
+}
+
+.custom-card:hover {
+    box-shadow: 0 0 8px rgba(209, 209, 11, 0.688); 
+  }
+  
+  
+  
+  
