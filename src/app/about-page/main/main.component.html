@@ -1,0 +1,29 @@
+<mat-grid-list cols="6" rowHeight="2:1" class="grid-container">
+    <mat-grid-tile colspan="1" class="small-container">
+        <div class="small-container-overlay">
+            <app-sidebar-card *ngFor="let sc of sideCardList" [sidebarCard]="sc" class="sidebar-card-list">
+        </app-sidebar-card>            
+        </div>
+
+    </mat-grid-tile>
+    <mat-grid-tile colspan="5" class="large-container">
+        <img src="../../../assets/images/about-page.jpg" alt="about-page" class="background-image">
+        <div class="large-container-overlay">
+          <div class="large-container-overlay-content">
+            <div class="about-us">
+                <h1 class="about-us-heading">About Us</h1>
+                <h3 class="about-us-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Labore tempora illo totam sint sunt officiis libero in mollitia commodi ipsum.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quisquam blanditiis aperiam voluptate, nesciunt.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quisquam blanditiis aperiam voluptate, nesciunt.  
+                </h3>
+            </div>
+            <div class="card-panel">
+                <app-card></app-card>
+                <app-card></app-card>
+                <app-card></app-card>
+            </div>
+          </div>
+        </div>
+    </mat-grid-tile>
+</mat-grid-list>
